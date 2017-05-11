@@ -11,7 +11,7 @@ public class Orbiting2 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Moon = transform;
-		rb.AddForce(transform.right * 100);
+		rb.AddForce(transform.right * 20);
 		rb.AddForce(transform.up );
 	}
 	
