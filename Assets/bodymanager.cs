@@ -7,7 +7,7 @@ public class bodymanager : MonoBehaviour {
 
 	public GameObject[] body;
 	public GameObject[] body2;
-
+	public GameObject[] body3;
 	// Use this for initialization
 	void Start () {
 		
@@ -16,6 +16,7 @@ public class bodymanager : MonoBehaviour {
 	void awake(){
 		body = GameObject.FindGameObjectsWithTag("Sun");
 		body2 = GameObject.FindGameObjectsWithTag("Earth");
+		body3 = GameObject.FindGameObjectsWithTag("Saturn");
 
 	}
 
@@ -24,6 +25,7 @@ public class bodymanager : MonoBehaviour {
 	void Update () {
 		body = GameObject.FindGameObjectsWithTag("Sun");
 		body2 = GameObject.FindGameObjectsWithTag("Earth");
+		body3 = GameObject.FindGameObjectsWithTag("Saturn");
 
 	}
 }
