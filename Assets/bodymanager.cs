@@ -24,5 +24,6 @@ public class bodymanager : MonoBehaviour {
 	void Update () {
 		body = GameObject.FindGameObjectsWithTag("Sun");
 		body2 = GameObject.FindGameObjectsWithTag("Earth");
+
 	}
 }
