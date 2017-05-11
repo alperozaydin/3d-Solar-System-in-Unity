@@ -12,7 +12,7 @@ public class Orbiting : MonoBehaviour {
 	void Awake () {
 		
 		Planet1 = transform;
-		rb.AddForce(transform.right * 100);
+		rb.AddForce(transform.right * 10);
 		rb.AddForce(transform.up);
 
 	}
